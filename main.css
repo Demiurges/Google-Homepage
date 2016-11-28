@@ -51,7 +51,12 @@ table {
 body {
 	font-family: arial, sans-serif;
 }
+/* End of CSS reset
+*/
 
+
+/* Kat's code for navbar stuff
+*/
 .navbar {
 	font-size: 13px;
 	line-height: 24px;
@@ -90,3 +95,10 @@ body {
 	font-weight: bold;
 	margin-right: 15px;
 }
+
+#menu-img {
+	height: 22px;
+	width: 22px;
+	text-align: center;
+}
+
