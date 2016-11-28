@@ -102,3 +102,23 @@ body {
 	text-align: center;
 }
 
+.main {
+	vertical-align: middle;
+	text-align: center;
+	margin-top: 110px;
+}
+
+.logo img {
+	text-align: center;
+	display:inline-block;
+	height:100px;
+	width:300px;
+}
+
+h2 {
+	position:absolute;
+	top:255px;
+	left:130px;
+	width:100%;
+	color:#4285F4;
+}
