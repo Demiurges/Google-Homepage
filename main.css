@@ -48,12 +48,12 @@ table {
 	border-spacing: 0;
 }
 
-body {
-	font-family: arial, sans-serif;
-}
 /* End of CSS reset
 */
 
+body {
+	font-family: arial, sans-serif;
+}
 
 /* Kat's code for navbar stuff
 */
@@ -130,7 +130,7 @@ h2 {
 	color:#4285F4;
 }
 
-/* Kat's code for search form
+/* Kat's code for search form and buttons
 */
 .searchbox{
   border: 1px solid #d9d9d9;
@@ -190,3 +190,40 @@ border: 1px solid #757575;
 .offering a:hover {
   text-decoration: underline;
 }
+
+
+/* Kat's code for footer
+*/
+
+.footer {
+	position: absolute;
+    height: 60px;
+  	right: 0;
+  	bottom: 0;
+  	left: 0;
+  	background-color: #efefef;
+    padding-right: 20px;
+    font-size:13px;
+    font-height:40px;
+    border-top-color: #E4E4E4;
+}
+
+.footer ul li {
+    display: inline-block;  
+    list-style-type: none;
+    line-height: 50px;
+}
+
+.footer ul li a {
+    color: #676767;
+    padding: 0 10px;
+    text-decoration: none;
+}
+.alignleft {
+    float: left;
+}
+
+.alignright {
+    float: right;
+}
+
