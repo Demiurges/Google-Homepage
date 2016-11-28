@@ -132,34 +132,61 @@ h2 {
 
 /* Kat's code for search form
 */
-.search-bar {
-	position:absolute;
-	border: 1px solid #B9B9B9;
-	top: 64%;
-	left: 55px;
-	width: 580px;
-	height: 30px;
-}
-
-.mic {
-  	display: inline-block;
-  	margin-left: -35px;
-  	top: 7px;
-  	position: relative;
-}
-
-input {
-  margin-left: 30%;
+.searchbox{
+  border: 1px solid #d9d9d9;
+  background: url("mic_logo.png") no-repeat right;
   margin-top: 30px;
-  width: 570px;
-  height: 35px;
-  font-size: 14px;
+  text-align: left;
+  display: inline-block;
+  width: 485px;
+  height: 40px;
+  outline: none;
+  padding-left: 10px;
 }
 
-input:hover{
+.searchbox:hover{
 border: 1px solid #757575;
 }
 
-input:focus {
+.searchbox:focus {
 	outline:#4D90FE solid thin;
+}
+
+.search-btn {
+  	width: 130px;
+  	margin-right: 5px;
+  	font-size: 13px;
+	background-color: #f3f3f3;
+	border-radius: 2px;
+	border: none;
+	color: #757575;
+	font-weight: bold;
+	margin-top: 30px;
+	height: 40px;
+}
+
+.lucky-btn {
+	width: 145px;
+	font-size: 13px;
+	background-color: #f3f3f3;
+	border-radius: 2px;
+	border: none;
+	color: #757575;
+	font-weight: bold;
+	margin-top: 30px;
+	height: 40px;
+}
+
+.offering{
+	font-size: 13px;
+	line-height: 28px;
+	padding: 20px;
+}
+
+.offering a {
+	text-decoration: none;
+}
+
+.offering a:hover {
+  text-decoration: underline;
 }
